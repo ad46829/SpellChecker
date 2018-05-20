@@ -1,0 +1,36 @@
+Following are the ways of using SpellChecker -
+
+1. Import SpellChecker-2.1.jar in you Projects Build Path.
+2. Use -cp 'path to .jar file' option to compile and execute you code.
+3. Add a Maven dependency as :
+   
+    Add Repository Tag just below the defined properties
+	
+      <repositories>
+		     <repository>
+			      <id>ad46829</id>
+			      <name>SpellChecker</name>
+			      <url>https://github.com/ad46829/SpellChecker/raw/master</url>
+		     </repository>
+	    </repositories>s>
+    
+    Add the SpellChecker dependency
+	
+      <dependencies>
+          <dependency>
+			        <groupId>com.jsc.spellchecker</groupId>
+			        <artifactId>SpellChecker</artifactId>
+			        <version>2.1</version>
+		      </dependency>
+     </dependencies>
+       
+
+Thats it, you are done importing the API into your project.
+
+Lets see how to use SpellChecker :
+
+        List<?> answer = SpellChecker.checkWordSpelling(wordToCheck);
+
+Yes!! thats it SpellChecker just requires a single line of code to do its work. Pretty easy haah!
+
+Developer - Akash Dubey (akashdubey13093@gmail.com)
