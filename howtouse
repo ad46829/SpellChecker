@@ -12,7 +12,7 @@ Following are the ways of using SpellChecker -
 			      <name>SpellChecker</name>
 			      <url>https://github.com/ad46829/SpellChecker/raw/master</url>
 		     </repository>
-	    </repositories>s>
+	    </repositories>
     
     Add the SpellChecker dependency
 	
